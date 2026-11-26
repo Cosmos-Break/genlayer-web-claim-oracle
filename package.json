@@ -1,0 +1,15 @@
+{
+  "name": "genlayer-web-claim-oracle",
+  "version": "1.0.0",
+  "description": "AI-adjudicated Web Claim Oracle Intelligent Contract for GenLayer",
+  "type": "module",
+  "scripts": {
+    "deploy:studio": "node scripts/deploy_and_verify.mjs",
+    "deploy:bradbury": "node scripts/deploy_and_verify.mjs --bradbury"
+  },
+  "dependencies": {
+    "genlayer-js": "^2.1.0",
+    "viem": "^2.58.0"
+  },
+  "license": "MIT"
+}
